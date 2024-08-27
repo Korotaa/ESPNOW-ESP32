@@ -21,7 +21,8 @@ ESPNOW est un protocole de communication sans fil pour des réponses rapides et 
 ### 3. Les types de communication supporté par espnow
 
 * **Communication unidirectionnelle** : Une puce maitre envoie les données vers une autre carte qui est considérée comme l'exclave. Cette configuration est utilisée pour par exemple envoyé des commandes ON/OFF ou acquérir des données et les envoyées à la deuxième carte.
-![Communication unidirectionnelles](/images/ESP_NOW_U.webp)  
+![Communication unidirectionnelles](/images/ESP_NOW_U.webp)
+[source](https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/)
 On peut ajouter plusieurs cartes expéditeurs(masters) et avoir une configuration où plusieurs noeuds envoient des données vers un noued récepteur(slave).
 ![Plusieurs noeuds maitres vers un noeud esclave](/images/MULTIPLE-MASTERS.webp).  
 Il est également possible de mettre en place une configuration où un seul noeud expéditeur appelé maitre envoie des données à plusieurs autres noeuds récepteurs exclaves. Cette configuration est utile pour envoyer des commandes à pluseurs équipements. Le noeud central agit comme une télécommande. ![maitre vers plusieurs exclaves](/images/ONE-MASTER.webp)
