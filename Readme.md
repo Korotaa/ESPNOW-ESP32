@@ -24,6 +24,7 @@ ESPNOW est un protocole de communication sans fil pour des réponses rapides et 
     
 ![Communication unidirectionnelles](/images/ESP_NOW_U.webp)  
 [source de l'image](https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/)  
+  
 On peut ajouter plusieurs cartes expéditeurs(masters) et avoir une configuration où plusieurs noeuds envoient des données vers un noued récepteur(slave).
 ![Plusieurs noeuds maitres vers un noeud esclave](/images/MULTIPLE-MASTERS.webp).  
 Il est également possible de mettre en place une configuration où un seul noeud expéditeur appelé maitre envoie des données à plusieurs autres noeuds récepteurs exclaves. Cette configuration est utile pour envoyer des commandes à pluseurs équipements. Le noeud central agit comme une télécommande. ![maitre vers plusieurs exclaves](/images/ONE-MASTER.webp)
