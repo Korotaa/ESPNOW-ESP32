@@ -1,0 +1,13 @@
+Véhicule guidé automatisé : 10.1109/ICAECT54875.2022.9808022
+Article 2 : 10.1109/IEEM50564.2021.9672870
+Article 3  : 10.1109/ISIE45552.2021.9576485
+
+
+Travail à faire :
+
+Mettre en place une architecture 
+    1. de CPS à 5 couches
+    2. D'un SMA hierarchique
+    3. Avec les differents protcoles de communication qui vont Avec
+    4. Tester le protocole esp-now avec un robot-car
+
